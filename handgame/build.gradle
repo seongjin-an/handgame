@@ -1,4 +1,6 @@
-
+/**
+ * https://docs.gradle.org/current/userguide/publishing_setup.html
+ */
 publishing {
     publications {
 //        create<MavenPublication>("maven") {
