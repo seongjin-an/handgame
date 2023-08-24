@@ -1,3 +1,5 @@
+package com.ansj.springboot.handgame
+
 import java.util.Random
 
 class Handgame {

@@ -1,6 +1,9 @@
 /**
  * https://docs.gradle.org/current/userguide/publishing_setup.html
  */
+
+version = "1.0.1-SNAPSHOT"
+
 publishing {
     publications {
 //        create<MavenPublication>("maven") {
@@ -10,7 +13,7 @@ publishing {
 //
 //            from(components["java"])
 //        }
-        myLibrary(MavenPublication) {
+        maven(MavenPublication) {
             groupId = project.group.toString()
             artifactId = project.name
             version = project.version.toString()

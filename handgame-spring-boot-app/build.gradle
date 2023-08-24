@@ -1,0 +1,4 @@
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "com.ansj.springboot:handgame-spring-boot-starter:1.0.0-SANPSHOT"
+}
